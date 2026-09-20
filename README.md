@@ -1,4 +1,4 @@
-# C++ DSA Practice
+# C++ DSA 
 
 A collection of C++ programs covering programming fundamentals, object-oriented programming, data structures, algorithms, and problem-solving techniques.
 
