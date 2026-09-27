@@ -1,6 +1,6 @@
-# C++ DSA 
+# C++ DSA
 
-A collection of C++ programs covering programming fundamentals, object-oriented programming, data structures, algorithms, and problem-solving techniques.
+A structured collection of C++ programs covering programming fundamentals, object-oriented programming, data structures, STL, algorithms, and problem-solving techniques.
 
 ## 📂 Repository Structure
 
@@ -8,60 +8,81 @@ A collection of C++ programs covering programming fundamentals, object-oriented 
 cpp-dsa/
 │
 ├── 01-cpp-basics/
-│   └── Basic C++ programming concepts
+│   └── C++ programming fundamentals
 │
 ├── 02-oops/
-│   └── Object-Oriented Programming concepts
+│   └── Object-oriented programming concepts
 │
 ├── 03-data-structures/
-│   └── Data structure implementations
+│   └── Linked lists, stacks, graphs, and related data structures
 │
-└── 04-algorithms/
-    └── Searching, sorting, recursion, backtracking,
-        binary search, and problem-solving algorithms
+├── 04-algorithms/
+│   └── Searching, sorting, recursion, backtracking,
+│       and problem-solving algorithms
+│
+└── 05-stl/
+    └── C++ Standard Template Library practice
 ```
 
 ## 📚 Topics Covered
 
 ### C++ Basics
 
-* Arrays
-* Basic programming concepts
+* Variables and data types
 * Input and output
 * Functions
+* Arrays
+* Basic problem solving
 
 ### Object-Oriented Programming
 
 * Classes and objects
-* Inheritance
-* Polymorphism
-* Operator overloading
 * Constructors and destructors
-* Deep copy
+* Inheritance
+* Runtime polymorphism
 * Virtual functions
+* Operator overloading
+* Friend functions
+* Deep copy
 
 ### Data Structures
 
+* Linked lists
+* Doubly linked lists
+* Circular linked lists
 * Stack
-* Array-based implementations
+* Next greater / previous smaller elements
+* Stock span
+* Graph representation
+* BFS
+* DFS
 
 ### Algorithms
 
-* Linear search
+* Searching
 * Binary search
-* Array manipulation
-* Maximum subarray sum
+* Sorting
 * Merge sort
 * Quick sort
-* Count inversions
 * Recursion
 * Backtracking
 * Rat in a Maze
 * Subsets
 * Pair Sum
+* Maximum subarray
+* Count inversions
 * Book Allocation
 * Painter Partition
 * Aggressive Cows
+
+### STL
+
+* `vector`
+* STL algorithms
+* `reverse()`
+* `sort()`
+* Comparators
+* Common vector operations
 
 ## 🛠️ Technologies
 
@@ -72,15 +93,25 @@ cpp-dsa/
 
 ## 🎯 Purpose
 
-This repository contains my C++ practice programs while strengthening my problem-solving, data structures, algorithms, and object-oriented programming skills.
+This repository documents my C++ learning and problem-solving practice.
 
-The programs are organized by topic and cover fundamental concepts through algorithmic problem solving.
+The programs are organized by topic to strengthen my understanding of:
+
+* C++ programming
+* Object-oriented programming
+* Data structures
+* Algorithms
+* STL
+* Problem solving
+
+The repository also serves as a foundation for preparing for software development and technical interviews.
 
 ## 🚀 Future Improvements
 
 * Add more DSA problems
-* Improve code organization and documentation
+* Add advanced data structures
+* Add competitive programming problems
 * Add time and space complexity notes
-* Add more advanced data structures
-* Practice competitive programming problems
+* Improve documentation for individual programs
+* Add dedicated software projects
 
