@@ -19,7 +19,7 @@ public:
     
     // Copy Constructor (Deep Copy)
     MyClass(const MyClass& other) : size(other.size) {
-        data = new int[size];
+        data = new int[size]();
         memcpy(data, other.data, size * sizeof(int));
     }
     
